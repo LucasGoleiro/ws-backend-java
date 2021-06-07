@@ -17,7 +17,7 @@ public class BackendApplication {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 	
-	@GetMapping("/")
+	/*@GetMapping("/")
 	public String hello() {
 		return databaseConnectionTest();
 	}
@@ -31,6 +31,5 @@ public class BackendApplication {
 		} catch (SQLException e) {
 			return "Deu errado";
 		}
-	}
-	
+	} */
 }
